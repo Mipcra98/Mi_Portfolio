@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Project with PPY</title>
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#about-me">Acerca de mí</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#xp">Experiencias</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contactos</a></li>
-            </ul>
+                <a href="#about-me">Acerca de mí</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#xp">Experiencias</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#contact">Contactos</a>
         </nav>
         <div>
             <h2>Willian Führ</h2>
@@ -24,20 +23,23 @@
     <main>
         <section id="about-me">
             <h3>Acerca de mí</h3>
-            <p>Como desarrollador web junior, me encuentro constantemente ferente a desafíos nuevos que solo hacen que mi interés por el mismo crezca más y más, así tambien me motiva poder colaborar con mis colegas en el área tecnológica ayudandoles en lo pueda.</p>
-            <ul>
-                <li>Licenciado en Analisis de Sistemas Informáticos en la UNAE (2023)</li>
-                <li>Técnico Superior en Progrador de Computadoras en la UNAE (2021)</li>
-                <li>Diplomado en Seguridad Informática UNAE(2020)</li>
-                <li>Participación activa en el Grupo de Robótica UNAE (2019)</li>
-                <li>Bachillerato Técnico en Contabilidad Col. Haruo Masuzawa(2015)</li>
-            </ul>
+            <p>Como desarrollador web junior, me encuentro constantemente frente a desafíos nuevos que solo hacen que mi interés por el mismo crezca más y más, así tambien me motiva poder colaborar con mis colegas en el área tecnológica ayudandoles en lo que pueda.</p>
+            <div>
+                <h4>Formación Académica</h4>
+                <ul>
+                    <li>Licenciado en Analisis de Sistemas Informáticos en la UNAE (2023)</li>
+                    <li>Técnico Superior en Progrador de Computadoras en la UNAE (2021)</li>
+                    <li>Diplomado en Seguridad Informática UNAE(2020)</li>
+                    <li>Participación activa en el Grupo de Robótica UNAE (2019)</li>
+                    <li>Bachillerato Técnico en Contabilidad Col. Haruo Masuzawa(2015)</li>
+                </ul>
+            </div>
         </section>
         <section id="skills">
             <h3>Habilidades</h3>
             <ul>
                 <li>
-                    Idiomas
+                    <h4>Idiomas</h4>
                     <ul>
                         <li>Español</li>
                         <li>Portugues</li>
@@ -46,7 +48,7 @@
                     </ul>
                 </li>
                 <li>
-                    Programación
+                    <h4>Programación</h4>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -56,18 +58,17 @@
                     </ul>
                 </li>
                 <li>
-                    Diseño Gráfico
+                    <h4>Diseño Gráfico</h4>
                     <ul>
-                        <li></li>
                         <li>Corel Draw</li>
                         <li>Photoshop</li>
                     </ul>
                 </li>
                 <li>
-                    Otros
+                    <h4>Otros</h4>
                     <ul>
                         <li>Redes de computadoras</li>
-                        <li>Cámaras+NVR</li>
+                        <li>Cámaras Dahua y HikVision</li>
                         <li>Wilcom Embroidery Studio</li>
                     </ul>
                 </li>
@@ -77,21 +78,21 @@
         <section id="xp">
             <h3>Experiencias</h3>
             <ul>
-                <li><strong>ControlGPS</strong> Actualmente
+                <li><h4>ControlGPS Actualmente</h4>
                     <ul>
                         <li>Soporte Técnico Remoto</li>
-                        <li>Encargado de un Servidor de Cámaras en unidades móviles</li>
+                        <li>Encargado de un Servidor de Cámaras en unidades móviles con GPS</li>
                         <li>Atención al Cliente</li>
                         <li>Configurador de Dispositivos GPS</li>
                     </ul>
                 </li>
-                <li><strong>MyM Confecciones</strong> (2021-2023)
+                <li><h4>MyM Confecciones (2021-2023)</h4>
                     <ul>
                         <li>Diseñador de Bordados</li>
                         <li>Diseñador Gráfico</li>
                     </ul>
                 </li>
-                <li><strong>Granja Scholz</strong> (2020-2021)
+                <li><h4>Granja Schols (2020-2021)</h4>
                     <ul>
                         <li>Gestor de Insumos en el día de uso</li>
                         <li>Conductor de Máquinas Agricolas</li>
@@ -103,22 +104,28 @@
         <section id="projects">
             <h3>Proyectos</h3>
             <ul>
-                <li><h4><a href="https://rescuapp.000webhostapp.com/">Rescue App</a></h4>
-                    <p>Se trata de una plataforma Web pensada para que en conjunto con una Aplicación móvil sirvan al Cuerpo de Bomberos de la Ciudad de Encarnación como medio para informarles de un accidente de tránsito.</p>
-                    <p>La plataforma Web fue desarrollada con PHP, HTML, JavaScript, CSS, Bulma, MySQL; en ella se reciben los datos enviados por los usuarios de la aplicación móvil, así también tendrán acceso a la ubicación geográfica de donde se emitió el reporte además de datos particulares del/a accidentado/a; el acceso está restringido solamente para los Bomberos.</p>
-                    <p>La Aplicación móvil fue desarrollada en su totalidad utilizando MyAppInventor, esta registra los datos del usuario, y una vez que el usuario emita un reporte Urgente o detallado, estos datos se envía a la plataforma web, para que los bomberos puedan tener acceso a los datos del/la accidentado/a, tipo de sangre, edad, nro de familiar, tipo de vehiculo con el que pudo haberse accidentado, entre otros, que pueden servir de ayuda a los Bomberos.</p>
-                    <p>Este proyecto se plantea como una alternativa a la tradicional "llamada" que se realiza para contactar con los Bomberos, pero caso el usuario no posea acceso a internet en el momento de emitir un reporte la aplicación intentará realizar una llamada directamente a los bomberos *132 para que el usuario aún así pueda contactar con éstos</p>
+                <li>
+                    <h4><a href="https://rescuapp.000webhostapp.com/" target="_blank">Rescue App</a></h4>
+                    <div>
+                        <p>Se trata de una plataforma Web pensada para que en conjunto con una Aplicación móvil sirvan al Cuerpo de Bomberos de la Ciudad de Encarnación como medio para informarles de un accidente de tránsito.</p>
+                        <p>La plataforma Web fue desarrollada con PHP, HTML, JavaScript, CSS, Bulma, MySQL; en ella se reciben los datos enviados por los usuarios de la aplicación móvil, así también tendrán acceso a la ubicación geográfica de donde se emitió el reporte además de datos particulares del/a accidentado/a; el acceso está restringido solamente para los Bomberos.</p>
+                        <p>La Aplicación móvil fue desarrollada en su totalidad utilizando MyAppInventor, esta registra los datos del usuario, y una vez que el usuario emita un reporte Urgente o detallado, estos datos se envía a la plataforma web, para que los bomberos puedan tener acceso a los datos del/la accidentado/a, tipo de sangre, edad, nro de familiar, tipo de vehiculo con el que pudo haberse accidentado, entre otros, que pueden servir de ayuda a los Bomberos.</p>
+                        <p>Este proyecto se plantea como una alternativa a la tradicional "llamada" que se realiza para contactar con los Bomberos, pero caso el usuario no posea acceso a internet en el momento de emitir un reporte la aplicación intentará realizar una llamada directamente a los bomberos *132 para que el usuario aún así pueda contactar con éstos.</p>
+                    </div>
                 </li>
-            </ul>
-            <ul>
-                <li><h4>Farming Note</h4>
-                    <p>Este proyecto no se dió seguimiento, sin embargo era un proyecto que pretendía reunir todos los datos de una Granja Agrícola de manera Digital, en otras palabras, los recursos utilizados para los distintos procesos que se realizan en los distintos cultivos y zafras durante la labor agrícola, de esta manera tener un historial de procesos realizados para una gestión correcta de "rotación de cultivos" en las distintas parcelas, también pretendía utilizar Google Maps para medir los terrenos y guardarlos como terrenos.</p>
+                <li>
+                    <h4>Farming Note</h4>
+                    <div>
+                        <p>Este proyecto no se dió seguimiento, sin embargo era un proyecto que pretendía reunir todos los datos de una Granja Agrícola de manera Digital, en otras palabras, los recursos utilizados para los distintos procesos que se realizan en los distintos cultivos y zafras durante la labor agrícola, y de esta manera tener un historial de procesos realizados para una gestión correcta de "rotación de cultivos" en las distintas parcelas, también se planteaba la idea de utilizar Google Maps para medir los terrenos y guardarlos como terrenos.</p>
+                    </div>
                 </li>
-            </ul>
-            <ul>
-                <li><h4><a href="https://github.com/Mipcra98?tab=repositories">Otros</a></h4>
-                    <p>Accediendo al repositorio de Github podrá encontrar más proyectos que tuve la oportunidad de desarrollar, cabe aclarar que en su mayoría son proyectos desarrollados en el lapso de Carrera Universitaria, por lo tanto puede que no estén en correcto funcionamiento debido a que pueden ser proyectos ambiguos</p>
+                <li>
+                    <h4><a href="https://github.com/Mipcra98?tab=repositories" target="_blank">Otros</a></h4>
+                    <div>
+                        <p>Accediendo al repositorio de Github podrá encontrar más proyectos que tuve la oportunidad de desarrollar, cabe aclarar que en su mayoría son proyectos desarrollados en el lapso de Carrera Universitaria, por lo tanto puede que no estén en correcto funcionamiento debido a que pueden ser proyectos ambiguos como tambien imcompletos.</p>
+                    </div>
                 </li>
+                
             </ul>
         </section>
         <section id="contact">
@@ -126,15 +133,33 @@
             <ul>
                 <li>Email: willianfuhr27041998@gmail.com</li>
                 <li>Teléfono: +595 985 206181</li>
-                <li>Redes Sociales
-                    <ul>
-                        <li><a href="https://www.facebook.com/wjff98/">Facebook</a></li>
-                        <li><a href="https://www.instagram.com/fuhrensewill/">Instagram</a></li>
-                    </ul>
-                </li>
+                <li>Redes Sociales</li>
+                <div>
+                    <a href="https://www.facebook.com/wjff98/" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/fuhrensewill/" target="_blank">Instagram</a>
+                    <a href="https://www.linkedin.com/in/willian-f%C3%BChr-32295b211/" target="_blank">LinkedIn</a>
+                </div>
             </ul>
+            <div>
+                <h4>Contactar ahora</h4>
+                <form action="submit">
+                    <div id="name">
+                        <p>Nombre</p>
+                        <input type="text" placeholder="Juan Pérez">
+                    </div>
+                    <div id="mail">
+                        <p>Correo electrónico</p>
+                        <input type="email" placeholder="ejemplo.12@gmail.com">
+                    </div>
+                    <div id="message-div">
+                        <p>Mensaje</p>
+                        <textarea name="message" id="message-id" placeholder="Hola Sr. Willian, me dirijo a usted para comunicar que..."></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
         </section>
     </main>
-    <footer>Copyright &copy; 2024</footer>
+    <footer><p>Copyright &copy; 2024</p></footer>
 </body>
 </html>
