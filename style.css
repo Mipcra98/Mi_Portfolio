@@ -1,0 +1,233 @@
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #072d44;
+    padding-top: 70px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.menu-item {
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    background-color: #5790ab;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 1.5vh;
+    margin-left: 1vh;
+    font-style: oblique;
+  }
+
+nav a:hover {
+    background-color: #9ccddb;
+    color: black;
+    transition: all 0.4s ease-in-out;
+}
+
+header{
+    align-items: center;
+    text-align: center;
+}
+
+header div{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 0.25vh #bbbbbb outset;
+    border-radius: 1rem;
+    background-color: #d0d7e1;
+}
+
+.animacion-titulo {
+    animation: aparecer 3s ease-in-out;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+section{
+    border: 0.25vh #d0d7e1 outset;
+    border-radius: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    padding: 2%;
+    background-color: #064469;
+}
+section div{
+    margin: 2%;
+}
+section p{
+    margin: 2%;
+    text-indent: 2%;
+}
+section li{
+    list-style: none;
+}
+#about-me {
+    text-align: justify;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 1vh;
+}
+
+.rama-hab {
+    display: inline-block;
+    padding: 1vh;
+    border: 1px solid rgb(2, 80, 125);
+    border-radius: 1vh;
+    margin: 10px;
+}
+
+.rama-hab:hover{
+    background-color: rgb(65, 146, 213);
+    transition: all 0.2s ease-in-out;
+}
+
+.habilidad{
+    display: inline-block;
+    padding: 1vh;
+    border-radius: 1vh;
+    margin: 10px;
+}
+
+.rama-hab:hover .habilidad{
+    background-color: #5790ab;;
+}
+
+.rama-hab:hover .habilidad:hover{
+    background-color: #9ccddb;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+#projects ul h4 a {
+    text-decoration: none;
+    color: rgba(0, 0, 0,1);
+}
+
+#projects ul h4 a:hover {
+    color: rgb(0, 0, 0,1);
+    text-decoration: underline;
+}
+#projects ul h4 {
+    text-decoration: none;
+    color: rgb(0, 0, 0,1);
+}
+
+
+
+#contact{
+    align-items: left;
+    text-align: left;
+    margin-left: 31.5vw;
+    margin-right: 31.5vw;
+}
+
+#contact li{
+    margin-top: 1.5vh;
+    font-size: large;
+}
+#contact div li{
+    text-align: left;
+}
+#contact ul div {
+    text-align: left;
+    margin-top: 0.5vh;
+    margin-left: 1vh;
+}
+#contact ul div a{
+    margin: 1vh;
+    text-decoration: none;
+    color: rgba(14, 149, 2,1);
+}
+#contact ul div a:hover{
+    text-decoration: underline;
+    color: rgb(0, 87, 127);
+}
+
+#contact div form div p{
+    margin: 1vh;
+}
+
+#contact div form div{
+    margin-top: 3vh;
+}
+
+#contact div form div input{
+    width: 30vw;
+    height: 3vh;
+}
+
+#message-id{
+    width: 30vw;
+    height: 20vh;
+}
+
+#contact button{
+    margin: 3vh;
+    padding: 1vh;
+    font-size: large;
+    background-color: rgb(53, 122, 186);
+    border-color: rgb(0, 99, 174);
+    padding: 1vh;
+    border-radius: 1vh;
+    font-weight: bold;
+}
+
+#contact button:hover{
+    background-color: rgba(65, 146, 65, 1);
+    border-color: rgba(0, 0, 0, 1);
+    color: white;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+
+#social {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#social li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.fa {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 0px;
+}
+.fa:hover {
+    color: #4c5dbb;
+    text-decoration: underline;
+    margin-left: 0px;
+}
+
+footer{
+    margin-top: 1vw;
+    font-weight: bold;
+    background-color: #d0d7e1;
+    border-radius: 1vh;
+    padding: 1vh;
+    text-align: center;
+}

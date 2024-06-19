@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <title>Project with PPY</title>
 </head>
 <body>
     <header>
         <nav>
-                <a href="#about-me">Acerca de mí</a>
-                <a href="#skills">Habilidades</a>
-                <a href="#xp">Experiencias</a>
-                <a href="#projects">Proyectos</a>
-                <a href="#contact">Contactos</a>
+            <ul>
+                <a class="menu-item" href="#about-me">Acerca de mí</a>
+                <a class="menu-item" href="#skills">Habilidades</a>
+                <a class="menu-item" href="#xp">Experiencias</a>
+                <a class="menu-item" href="#projects">Proyectos</a>
+                <a class="menu-item" href="#contact">Contactos</a>
+            </ul>
         </nav>
         <div>
-            <h2>Willian Führ</h2>
-            <h3>Soporte Técnico - ControlGPS</h3>
+            <h2 class="animacion-titulo">Willian Führ</h2>
+            <h3 class="animacion-titulo">Soporte Técnico - ControlGPS</h3>
         </div>
     </header>
     <main>
         <section id="about-me">
-            <h3>Acerca de mí</h3>
+            <h2>Acerca de mí</h2>
             <p>Como desarrollador web junior, me encuentro constantemente frente a desafíos nuevos que solo hacen que mi interés por el mismo crezca más y más, así tambien me motiva poder colaborar con mis colegas en el área tecnológica ayudandoles en lo que pueda.</p>
             <div>
                 <h4>Formación Académica</h4>
@@ -36,47 +39,47 @@
             </div>
         </section>
         <section id="skills">
-            <h3>Habilidades</h3>
+            <h2>Habilidades</h2>
             <ul>
-                <li>
+                <li class="rama-hab">
                     <h4>Idiomas</h4>
                     <ul>
-                        <li>Español</li>
-                        <li>Portugues</li>
-                        <li>Inglés</li>
-                        <li>Aleman</li>
+                        <li class="habilidad">Español</li>
+                        <li class="habilidad">Portugues</li>
+                        <li class="habilidad">Inglés</li>
+                        <li class="habilidad">Aleman</li>
                     </ul>
                 </li>
-                <li>
+                <li class="rama-hab">
                     <h4>Programación</h4>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>PHP</li>
-                        <li>MySQL</li>
+                        <li class="habilidad">HTML</li>
+                        <li class="habilidad">CSS</li>
+                        <li class="habilidad">JavaScript</li>
+                        <li class="habilidad">PHP</li>
+                        <li class="habilidad">MySQL</li>
                     </ul>
                 </li>
-                <li>
+                <li class="rama-hab">
                     <h4>Diseño Gráfico</h4>
                     <ul>
-                        <li>Corel Draw</li>
-                        <li>Photoshop</li>
+                        <li class="habilidad">Corel Draw</li>
+                        <li class="habilidad">Photoshop</li>
                     </ul>
                 </li>
-                <li>
+                <li class="rama-hab">
                     <h4>Otros</h4>
                     <ul>
-                        <li>Redes de computadoras</li>
-                        <li>Cámaras Dahua y HikVision</li>
-                        <li>Wilcom Embroidery Studio</li>
+                        <li class="habilidad">Redes de computadoras</li>
+                        <li class="habilidad">Cámaras Dahua y HikVision</li>
+                        <li class="habilidad">Wilcom Embroidery Studio</li>
                     </ul>
                 </li>
 
             </ul>
         </section>
         <section id="xp">
-            <h3>Experiencias</h3>
+            <h2>Experiencias</h2>
             <ul>
                 <li><h4>ControlGPS Actualmente</h4>
                     <ul>
@@ -102,7 +105,7 @@
             </ul>
         </section>
         <section id="projects">
-            <h3>Proyectos</h3>
+            <h2>Proyectos</h2>
             <ul>
                 <li>
                     <h4><a href="https://rescuapp.000webhostapp.com/" target="_blank">Rescue App</a></h4>
@@ -129,19 +132,26 @@
             </ul>
         </section>
         <section id="contact">
-            <h3>Contactos</h3>
+            <h2>Contactos</h2>
             <ul>
-                <li>Email: willianfuhr27041998@gmail.com</li>
-                <li>Teléfono: +595 985 206181</li>
-                <li>Redes Sociales</li>
-                <div>
-                    <a href="https://www.facebook.com/wjff98/" target="_blank">Facebook</a>
-                    <a href="https://www.instagram.com/fuhrensewill/" target="_blank">Instagram</a>
-                    <a href="https://www.linkedin.com/in/willian-f%C3%BChr-32295b211/" target="_blank">LinkedIn</a>
-                </div>
+                <li><i class="fa fa-envelope"></i> Email: willianfuhr27041998@gmail.com</li>
+                <li><i class="fa fa-phone"></i> Teléfono: +595 985 206181</li>
+                <li><i class="fa fa-mobile"></i> Redes Sociales</li>
+                <ul id="social">
+                    <li>
+                        <a href="https://www.facebook.com/wjff98/" class="fa fa-facebook" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/fuhrensewill/" class="fa fa-instagram" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/willian-f%C3%BChr-32295b211/" class="fa fa-linkedin" target="_blank"></a>
+                    </li>
+                    <!-- Agrega más redes sociales si lo deseas -->
+                </ul>
             </ul>
             <div>
-                <h4>Contactar ahora</h4>
+                <h4>Déjame un mensaje</h4>
                 <form action="submit">
                     <div id="name">
                         <p>Nombre</p>
