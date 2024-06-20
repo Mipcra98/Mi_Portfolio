@@ -3,31 +3,35 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    background-color: #072d44;
-    padding-top: 70px;
+    background-color: #396a88;
+    padding-top: 6rem;
 }
 
 nav{
     position: fixed;
+    text-align: center;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 .menu-item {
-    padding: 10px;
+    padding: 0.5rem;
+    margin: 0.25rem;
     text-decoration: none;
     display: inline-block;
     color: rgb(0, 0, 0);
     background-color: #5790ab;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 1.5vh;
-    margin-left: 1vh;
     font-style: oblique;
-  }
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+}
 
-nav a:hover {
-    background-color: #9ccddb;
+.menu-item:hover {
+    background-color: rgba(156, 205, 219,1);
     color: black;
     transition: all 0.4s ease-in-out;
 }
@@ -38,8 +42,9 @@ header{
 }
 
 header div{
-    margin-left: 20%;
-    margin-right: 20%;
+    position: static;
+    padding-left: 10%;
+    padding-right: 10%;
     border: 0.25vh #bbbbbb outset;
     border-radius: 1rem;
     background-color: #d0d7e1;
@@ -65,14 +70,14 @@ section{
     margin-right: 15%;
     margin-top: 2%;
     padding: 2%;
-    background-color: #064469;
+    background-color: #9bb5c4;
 }
 section div{
     margin: 2%;
 }
 section p{
     margin: 2%;
-    text-indent: 2%;
+    text-indent: 2rem;
 }
 section li{
     list-style: none;
@@ -83,8 +88,8 @@ section li{
 
 #skills ul {
     list-style: none;
-    padding: 0;
-    margin: 1vh;
+    padding: 0vh;
+    margin: 0.25vh;
 }
 
 .rama-hab {
@@ -92,29 +97,31 @@ section li{
     padding: 1vh;
     border: 1px solid rgb(2, 80, 125);
     border-radius: 1vh;
-    margin: 10px;
+    margin: 1vh;
 }
 
 .rama-hab:hover{
-    background-color: rgb(65, 146, 213);
+    background-color: rgb(95, 154, 202);
     transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 1);
 }
 
 .habilidad{
     display: inline-block;
     padding: 1vh;
     border-radius: 1vh;
-    margin: 10px;
+    margin: 0.5vh;
 }
 
 .rama-hab:hover .habilidad{
-    background-color: #5790ab;;
+    background-color: #81aad1;;
 }
 
 .rama-hab:hover .habilidad:hover{
-    background-color: #9ccddb;
+    background-color: #7dbbe8;
     color: black;
     transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 1vh rgba(0, 0, 0, 1);
 }
 
 #projects ul h4 a {
@@ -136,8 +143,8 @@ section li{
 #contact{
     align-items: left;
     text-align: left;
-    margin-left: 31.5vw;
-    margin-right: 31.5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 #contact li{
