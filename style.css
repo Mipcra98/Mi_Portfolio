@@ -4,11 +4,7 @@
 body{
     font-family: 'Lato', sans-serif;
     background-color: #396a88;
-    padding-top: 6rem;
-}
-
-nav ul{
-    padding-inline-start: 0;
+    justify-content: center;
 }
 
 nav{
@@ -20,6 +16,14 @@ nav{
     width: 100%;
     box-shadow: 0 0 1vh rgba(0, 0, 0, 1);
     background-color: rgba(0, 0, 0, 0.25);
+}
+
+nav ul{
+    padding-inline-start: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    list-style: none;
+    unicode-bidi: normal;
 }
 
 .menu-item {
@@ -41,11 +45,11 @@ nav{
 }
 
 header{
-    align-items: center;
     text-align: center;
 }
 
 header div{
+    margin-top: 12vh;
     position: static;
     padding-left: 10%;
     padding-right: 10%;
@@ -67,11 +71,12 @@ header div{
         opacity: 1;
     }
 }
+
 section{
     border: 0.25vh #d0d7e1 outset;
     border-radius: 1rem;
     margin-left: 10%;
-    margin-right: 15%;
+    margin-right: 10%;
     margin-top: 2%;
     padding: 2%;
     background-color: #9bb5c4;
@@ -84,7 +89,6 @@ section p{
     text-indent: 2rem;
 }
 section li{
-    padding-inline-start: 0;
     list-style: none;
 }
 #about-me {
