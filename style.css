@@ -166,13 +166,7 @@ section li{
 }
 
 #projects ul h4 a {
-    text-decoration: none;
     color: rgba(0, 0, 0,1);
-}
-
-#projects ul h4 a:hover {
-    color: rgb(0, 0, 0,1);
-    text-decoration: underline;
 }
 #projects ul h4 {
     text-decoration: none;
@@ -186,6 +180,10 @@ section li{
     text-align: left;
     padding-left: 10vw;
     padding-right: 10vw;
+}
+
+#contact a{
+    color: #000000;
 }
 
 #contact li{
@@ -260,6 +258,10 @@ section li{
     padding: 5px;
 }
 
+#social a{
+    font-size: larger;
+}
+
 .fa {
     color: #000000;
     text-decoration: none;
@@ -269,6 +271,11 @@ section li{
     color: #4c5dbb;
     text-decoration: underline;
     margin-left: 0px;
+}
+
+#contact i{
+    color: #000000;
+    text-decoration: none;
 }
 
 footer{
